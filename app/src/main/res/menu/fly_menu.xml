@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item"
+        android:title="item"
+        android:icon="@drawable/ic_showing_toast"
+        app:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/item1"
+        android:title="Cabin Class"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/subitemC1"
+                android:title="Platinum Class"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemC2"
+                android:title="First Class"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemC3"
+                android:title="Business Class"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemC4"
+                android:title="Premium Economy Class"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemC5"
+                android:title="Economy Class"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/item2"
+        android:title="Car Rent"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/subitemR1"
+                android:title="Mercedes - C63"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemR2"
+                android:title="Kia - K5"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemR3"
+                android:title="Ford - Focus"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemR4"
+                android:title="Honda - Civic"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemR5"
+                android:title="Toyota - Camry"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/item3"
+        android:title="Hotels"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/subitemT1"
+                android:title="Hotel 1"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemT2"
+                android:title="Hotel 2"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemT3"
+                android:title="Hotel 3"
+                app:showAsAction="never"/>
+            <item android:id="@+id/subitemT4"
+                android:title="Hotel 4"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+
+
+
+</menu>
